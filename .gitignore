@@ -11,3 +11,6 @@
 
 # macOS files
 .DS_Store
+
+# VS Code history
+.history/
