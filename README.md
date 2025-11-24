@@ -28,9 +28,9 @@ These documents were created as part of doctoral-level training in public econom
 
 These are educational exercises in academic peer review:
 
-- Deshpande and Lockwood (2021) - Practice referee report
+- Deshpande and Lockwood (2021) - Practice referee report, and letter to editor
 - Lachowska et al (2021) - Practice referee report
-- Letter to Editor - Practice editorial correspondence
+
 
 ## Format
 
