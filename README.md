@@ -1,14 +1,19 @@
-# Public Economics F21
+# Public Economics F21 - PhD Course Materials
 
-This repository contains course materials for an advanced Public Economics PhD class, including:
+This repository contains educational materials from an advanced Public Economics PhD course (Fall 2021). The materials consist of:
 
-- **Paper outlines**: Summaries and analyses of key research papers in public economics
-- **Referee reports**: Critical evaluations and peer review exercises for recent economics research
-- **Bibliography**: Comprehensive references for the course readings
+- **Paper Outlines**: Structured summaries and critical analyses of seminal research papers in public economics
+- **Practice Referee Reports**: Fictitious referee reports written as course exercises to develop academic peer review skills
+- **Bibliography**: Comprehensive references for course readings
+
+## About the Materials
+
+These documents were created as part of doctoral-level training in public economics. The referee reports are **practice exercises** written for pedagogical purposes and do not represent actual journal submissions or real peer review processes.
 
 ## Course Materials
 
 ### Paper Outlines
+
 - Deshpande and Li (2019)
 - Ganong and Noel (2019)
 - Hendren and Sprung-Keyser (2020)
@@ -19,10 +24,13 @@ This repository contains course materials for an advanced Public Economics PhD c
 - Marone and Sabety (2021)
 - Voena (2015)
 
-### Referee Reports
-- Deshpande and Lockwood (2021)
-- Lachowska et al (2021)
-- Letter to Editor
+### Practice Referee Reports (Fictitious)
+
+These are educational exercises in academic peer review:
+
+- Deshpande and Lockwood (2021) - Practice referee report
+- Lachowska et al (2021) - Practice referee report
+- Letter to Editor - Practice editorial correspondence
 
 ## Format
 
