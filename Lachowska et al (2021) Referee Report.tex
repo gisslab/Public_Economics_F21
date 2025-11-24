@@ -1,0 +1,73 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+%\usepackage[left=3cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}e}
+\usepackage[spanish,english]{babel}
+\usepackage{apacite}
+\usepackage[round]{natbib}
+\usepackage{hyperref}
+\usepackage[margin = 1.35in, top=2cm]{geometry}% Margins
+\setlength{\parindent}{2.0em}
+\setlength{\parskip}{0.3em}
+\usepackage{setspace} % Setting the spacing between lines
+\usepackage{hyperref} % To create hyperlinks within the document
+\spacing{1.25}
+
+\usepackage[round]{natbib}
+%\bibliographystyle{plainnat}
+\bibliographystyle{apacite}
+
+\title{Report on 'Firms and Unemployment Insurance Take-Up'}
+\author{Anonymous referee}
+\date{November 2021}
+
+\begin{document}
+
+\maketitle
+
+\cite{lachowska2021firms} address the role of firms in discouraging Unemployment Insurance (UI) claims.  The experience rating system used in the majority of states in the US may incentivize employers to challenge UI claims. To unravel this mechanism, the authors used linked employer-employee data from Washington State to quantify the extent of firm heterogeneity in UI take-up.  
+
+The authors estimate that fewer than half of the UI-eligible job losers claimed UI benefits in Washington during 2005-2013. This is consistent with early work, notice that this has to be estimated because it is not observed who is eligible or not. The authors find that there is a steep income gradient in income and that firms fixed effect explains a large share of it. They find that there is considerable heterogeneity in the employer-specific UI take-up rates and appeals. They also estimate the firm fixed effect in both UI take-up and appeals, which they also find are strikingly negatively correlated. The authors claim that this can be explained by the deterrence effects of appeals driven by experience rating. Another of their result is that claims and appeals are closely related to workers' pre-separation wages. A model of experience rating and claims is estimated, and the targeting properties of UI are discussed.  
+
+The following are comments both about the strength and weaknesses of the paper, as well as suggestions for improvement. 
+\begin{enumerate}
+
+    \item  The authors do a good job motivating the importance of studying the determinants of the UI take-up rates among eligible workers. This works looks at this topic from a different angle: employers' effect on UI take-up. 
+    
+    \item In the literature discussion, the paper \cite{auray2020eligibility} is mentioned, and their objective is explained. It will seem that the research question has some overlap and this paper is relevant for both the relationship with the topic as well as the similarities with the theoretical model. However, the results of these references are not mentioned or discussed. It will be interesting to know if these are in line with the authors' findings. 
+
+
+    \item About the predictions of the theoretical model, it is stated that in the absence of experience rating, all workers (both eligible and ineligible workers) will apply. This is unrealistic since there should be still other deterrence, as the cost of applications for workers precludes some workers from applying. 
+    
+    \item The institutional environment section is very useful for the reader. The application concepts and the definition of experience rating are very clear and concise. 
+    
+    \item The model is simple and coherent but has the drawback that experience rating does not affect the level of employment of a firm. The authors do not discuss the implications of this assumption. 
+     
+    \item In section 4, the probability limit of the coefficient of the change in the average of claims, the result is just laying there with no reference or explanation about why it needs it.
+    
+    \item Workers who separate twice are used as tools for several validity tests and to find bounds. There is poor information about demographics for the subsample of workers who have previously collected UI,  with can cause potential selection. The authors are transparent about this restriction but do not pose any hypothesis for the direction of the potential bias. 
+    
+    \item Overall, the structure and writing of the paper are appreciated, it is well organized and compartmentalized. There are takeaways at the end of each subsection which makes reading very easy.
+    
+    \item The assumption that the elasticity of claims to appeals is constant is strong and important for the identification of the model. Why is this a plausible and acceptable assumption? What implications does it have? 
+    
+    \item Why in Figure 5, the model fitness is always plotted for grows rate smaller than 0. Is it that it fits perfectly for greater values, or that the model is constrained to the study of shrinking firms. It is more likely that is the latter explanation, this should be more clear in the main document. 
+    
+    \item There is only one counterfactual explored, $10 \%$ decrease in experience rating. It would be nice if there were other counterfactuals examined, like a structural change in the tax structure of the experience rating, a higher cap in the experience rating, or no experience rating system (maybe this later is too simple and it is a case of the theoretical model).  
+    
+   \item Minor: There are some small typos across the document, such as a fragmented sentence on page 1 3rd paragraph, "... of of variance ..." in section 6.5 and $plim$ $\hat{\beta}$ instead of $plim$ $\hat{\delta}$ in Appendix D.
+    
+
+    
+  %  \item   iT MIGHT ALSO BE WORTH CONSIDERING
+  % IT HAS TO BE ACKNOWLEDGE
+\end{enumerate}
+
+
+
+
+
+
+\bibliography{references}
+
+\end{document}

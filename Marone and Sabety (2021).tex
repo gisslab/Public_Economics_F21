@@ -1,0 +1,100 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+%\usepackage[left=3cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}e}
+\usepackage[spanish,english]{babel}
+\usepackage{apacite}
+\usepackage[round]{natbib}
+\usepackage{hyperref}
+\usepackage[margin = 1.20in, top=2cm]{geometry}% Margins
+\setlength{\parindent}{1.9em}
+\setlength{\parskip}{0.3em}
+\usepackage{setspace} % Setting the spacing between lines
+\usepackage{hyperref} % To create hyperlinks within the document
+\spacing{1.2}
+
+\usepackage[round]{natbib}
+%\bibliographystyle{plainnat}
+\bibliographystyle{apacite}
+
+\title{Report on 'When should There Be Vertical Choice in the Health Insurance Market (\cite{marone2021should})}
+\author{Anonymous referee}
+\date{November 2021}
+
+\begin{document}
+
+\maketitle
+
+
+In health insurance markets, costs are not independent of consumers' valuations, and asymmetric information makes choice over differentiated plans not always socially optimal. However, choosing the product can help consumers more closely match their socially efficient coverage level.  This ambiguity is the motivation of this paper, and their objective is to answer when vertical choice improves welfare.  More precisely, the authors focus on vertical choice in competitive regulated health insurance markets.
+
+
+The theoretical framework uses a model of consumer demand for health insurance and the graphical framework to demonstrate that the optimal menu is vertical if consumers with a higher willingness to pay have a higher efficient level of coverage. This is ultimately an empirical question. Using data from the population of public school employees in Oregon over the period 2008 to 2013, this paper answer this question. It is worth noticing that there is rich variation in the data, since starting in 2008 school districts chose among more than a dozen plans, resulting in variation on premiums available to the 63,000 school district employees.
+
+
+First, the authors recover the joint distribution of consumers types in the population. Second, they turn on to build the households' willingness to pay (WTP) for different values of coverage and social surplus using the obtained distribution. They find that households with higher WTP are mainly motivated by a larger expected drop in out-of-pocket spending, rather than by a larger value of risk protection.  The authors claim that this can be explained by the effect of health state on WTP and a high lowest relevant level of coverage. 
+
+The authors find that private valuations preference for higher coverage is not strongly positive correlated with social surplus. Thus, offering choice does not provide welfare gains, and even in the cases that it does, these gains are relatively small. In other words, as long as the minimum coverage level can be enforced, single choice yields almost as good results as vertical choice. 
+
+
+
+
+The following are comments both about the strength and weaknesses of the paper, as well as suggestions for improvement. 
+
+\textbf{Major Comments:} 
+\begin{enumerate}
+
+    \item  The papers motivate adequately the need to answer the question of when is vertical choice efficient.  Regulation plays a key role in health insurance markets to determine the extent of vertical choice predominance.
+    
+    %\item Although the references are extensive, the literature review feels incomplete in the sense that 
+
+
+    \item In section 2 (Theoretical framework), the utility function used in the initial setup has a general standard form. But the derivation of willingness to pay as being expressed by the sum of terms (a transfer to the insurance that is privately relevant and a social welfare term) is done using CARA. The choice of CARA utility also causes that risk protection and social surplus are invariant to changes in premiums. Although CARA utility is very common in this literature, discussion about the implications of this change in setup. The authors claim that any assumption of functional form is responsible for the general decomposition, but this seems contradictory since the decomposition was obtained using CARA.   %premiums are exogeneous,...
+    
+    \item The authors assume that socially optimal level of healthcare utilization is the level a consumer chooses absent insurance. Not only possible externalities in healthcare consumption may result in higher optimal consumption. Also, this no insurance quantity of consumption is not realistic, since extremely high prices of health make consumption prohibitive without insurance. This assumption weakens the model since the author's main purpose is to characterize efficiency. 
+    
+    \item The graphical analysis is clear and illustrative to prove how the efficiency of choice turns on whether consumer surplus and willingness to pay are correlated.
+    
+    \item The data description and discussion are lengthy and useful in the main document. The estimations use data from the public schools' employees in Oregon. So these results might be data dependant, different results might be found in different groups of society. Authors could also argue about the limitations of the data.
+    
+    \item An important assumption for identification is that districts do not choose plan generosity based on unobservable characteristics. This could happen also through a dynamic mechanism in which certain district workers have fought through unions for more generous benefits. Sicker households could be getting more charitable benefits because of unobservables. The question is whether this is affecting health, and the authors find using several tests that there is no correlation between health and plans. The various test the authors perform to validate this assumption made me confident that the identification assumption is reasonable.
+    
+    \item Another important assumption for identifications is that districts choose menus independently from a bigger set chosen by the state. Could it be that this decision is not independent? Districts could be influenced by other districts' decisions, especially given that there are data on several years and districts can find out the plans that other district schools are choosing. Furthermore, this is one way in which districts compete for the best school teachers and other workers, so it makes sense that there is correlation between the choice of two different districts. More strictly speaking the best response of value of health plans could depend on other districts' best responses. The authors could test whether this is happening or the extent of this possible relation. 
+    
+    \item The option of choosing insurance plans is a dynamic problem, while this paper's model is static. This is a limitation of the model, a simple choice simplifies the dynamic problem, but when you have multiple choices, households can respond to changes in family size or other exogenous characteristics. 
+    
+    \item It is not clear how they set up the competitive pricing counterfactual. There is no explanation for this alternative model. Also, more intuition about the economic theory of why the competitive model performed so much worse will enhance the value of these results. 
+    
+    
+    \item 
+    This paper estimates a model in which households have beliefs over their out-of-pocket spending and preferences over insurance plans that depend directly on their spending distributions. Consumers only trade-off benefits and out-of-pocket expenditure. Why do they only focus on out-of-pocket expenditure?  There are other cost-sharing variables that determined a different structure for the plan, some of those are not even considered in the plan cost-sharing functions (e.g. copayments, fixed charges for emergency visits, out-of-network fees). How far off are the estimates if they do not include any of these cost-sharing factors. 
+    
+    
+    %\item Robustness checks on 
+    
+    \item The authors examine selection on moral hazard from the consumer side, rather than the provider side. So, this is a partial equilibrium result. More broadly, the choice scheme impacts the choices of insurers about how much coverage to offer. I believe the partial equilibrium analysis is nevertheless valuable.
+    %the extent to which an employer, able to freely set premiums and cross-subsidize plans, can manage the adverse selection and achieve gains that a competitive marketplace cannot. . Premiums tell you about cost-sharing....  market designer or planner that can regulate premiums and choose financial coverage levels for a set of insurance plans. We use our framework both to determine the optimal coverage for a single plan and to quantify the potential benefits from multiple plans that are differentiated on both financial and non-financial dimensions.
+
+    \item A number of robustness checks are investigated. For example, perturbations around parameter estimates and the types of contracts under consideration. The authors consider removing the deductible, coinsurance regions, and the number of contracts.  Overall, the robustness check confirms the qualitative results. However, when they estimate the model for a larger number of contracts, the optimal solution features vertical choice, although the welfare change is relatively small. So, this robustness check does not completely align with the main model result (5 choices). Premiums are exogenous, so this discrete choice model can limit the strength of the single plan hypothesis. More should be commented on this since this result is predominantly portraited an assertion of the previous findings.
+  %  \item   iT MIGHT ALSO BE WORTH CONSIDERING
+  % IT HAS TO BE ACKNOWLEDGED
+  
+  
+\end{enumerate}
+
+\textbf{Minor Comments:}
+
+\begin{enumerate}
+    \item On page 21, the second sentence seems to be fragmented: "...we represent a household distribution of health states using a lognormal that approximates." What does the lognormal approximate? 
+\end{enumerate}
+
+
+\textbf{Discussion about policy implications: What do you think about the policy implication when the market is not competitive? (e.g., Medicare Advantage, etc)}
+
+Vertical choice is currently the status quo in the Affordable Care Act exchanges in Medicare, this is achieved through Medigap policies. Since this is a regulated non-competitive market, this work suggests that the efficient result will be achieved under a single plan. Moral hazard, risk aversion, and adverse selection imply that there could be no value on vertical choice. However, this decision was likely driven by fact that a program that offers choice is politically easier to sell, by its flexibility and similarity with private programs. But the direct policy implication is to make these government programs implement a single plan to all consumers. It might also be considering the effect of these policies given possible cream-skimming from insurance companies, and on choice by consumers of using these programs over private insurance. 
+
+Moreover, counterfactuals show that regulated pricing with community rating and regulated pricing with type-specific pricing gives a higher surplus than competitive pricing. This suggests that government programs like Medicare might be closer to the efficient allocation than the health insurance competitive market. 
+
+\bibliography{references}
+
+\end{document}
